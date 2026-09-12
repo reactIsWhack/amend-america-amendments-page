@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(10, 29, 69);
+  padding: 30px 20px;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  color: white;
+}

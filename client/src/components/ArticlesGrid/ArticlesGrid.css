@@ -1,0 +1,21 @@
+.articles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    max-width: 1400px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .articles-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .articles-grid {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+}
