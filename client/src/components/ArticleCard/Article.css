@@ -15,6 +15,7 @@ hr {
 .article-container img {
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .article-container hr {
@@ -33,4 +34,9 @@ hr {
     color: rgb(170, 175, 199);
     line-height: 25px;
     flex: 1;
+    font-size: 16px;
+}
+
+.article-link {
+    width: 100%;
 }
