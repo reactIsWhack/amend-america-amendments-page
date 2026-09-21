@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router'
 function RootLayout() {
     return (
         <>
-            <Link to='/' className='home-link'>Home</Link>
+            {/* <Link to='/' className='home-link'>Home</Link> */}
 
             <Outlet />
         </>

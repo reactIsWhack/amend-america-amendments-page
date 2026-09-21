@@ -5,6 +5,55 @@
     row-gap: 40px;
 }
 
+select {
+  background-color: #0b1d3a;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 26px;
+  transition: border-color 0.2s;
+}
+
+select:hover, select:focus {
+  border-color: #ffffff;
+  outline: none;
+}
+
+select::picker(select) {
+  background-color: #0b1d3a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 4px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+select option {
+  padding: 12px 14px;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select option:hover, 
+select option:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+select option:checked {
+  background-color: #0f52ba; /* Electric blue accent */
+  color: #ffffff;
+}
+
+select option::checkmark {
+  color: #ffffff;
+}
+
 
 @media screen and (max-width: 1000px) {
     .articles-grid {

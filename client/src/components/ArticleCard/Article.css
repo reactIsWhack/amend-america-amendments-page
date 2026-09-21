@@ -8,10 +8,6 @@
     font-size: 22px;
 }
 
-hr {
-    margin: 22px 0;
-}
-
 .article-container img {
     width: 100%;
     object-fit: cover;
@@ -20,15 +16,16 @@ hr {
 
 .article-container hr {
     width: 100%;
+    margin: 22px 0;
 }
 
-.article-description-container {
+.article-summary-container {
     display: flex;
     align-items: center;
     flex: 1;
 }
 
-.article-description {
+.article-summary {
     text-align: center;
     margin-top: 20px;
     color: rgb(170, 175, 199);

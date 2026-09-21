@@ -1,22 +1,50 @@
-import React from 'react'
 import './ArticlesGrid.css';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
 import articles from '../../data/articles';
+import { useEffect, useState } from 'react';
+import categories from '../../data/categories';
 
 function ArticlesGrid() {
-    const articlesJSX = articles.map(article => {
+    const [articlesToDisplay, setArticlesToDisplay] = useState(articles);
+    const [categorySelection, setCategorySelection] = useState("");
+
+    const optionsJSX = categories.map((category, idx) => {
+        return <option key={idx}>{category}</option>
+    })
+
+
+    const handleOnChange = (event) => {
+        const category = event.target.value;
+        setCategorySelection(category);
+        const newArticles = [];
+        for (const article of articles) {
+            if (article.category != category && category != "all" && category != "recommended") continue;
+
+            newArticles.push(article);
+        }
+        setArticlesToDisplay(newArticles);
+    }
+
+    const articlesJSX = articlesToDisplay.map(article => {
         return <ArticleCard
             title={article.title}
             number={article.number}
             romanNumeral={article.romanNumeral}
-            description={article.description}
+            summary={article.summary}
             key={article.number}
         />
     })
 
     return (
-        <div className='articles-grid'>
-            {articlesJSX}
+        <div className='articles-page'>
+            <select className="category-select" value={categorySelection} onChange={handleOnChange}>
+                <option value="all">All Articles</option>
+                <option value="recommended">Recommended</option>
+                {optionsJSX}
+            </select>
+            <div className='articles-grid'>
+                {articlesJSX}
+            </div>
         </div>
     )
 }

@@ -2,9 +2,9 @@ import React from 'react'
 import './NavigationButton.css';
 import { Link } from 'react-router';
 
-function NavigationButton({ text, articleNumber, change }) {
+function NavigationButton({ text, link }) {
     return (
-        <Link to={`/article/${Number(articleNumber) + change}`}>
+        <Link to={link}>
             <button className='navigation-btn'>{text}</button>
         </Link>
     )

@@ -1,6 +1,34 @@
 .full-article-page {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 840px;
     width: 100%;
+}
+
+.article-title-container {
+    width: fit-content;
+    margin-top: 60px;
+}
+
+.article-numeral {
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+
+.paragraph-description-container {
+    margin-top: 40px;
+}
+
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.logo {
+    width: 35%;
 }
