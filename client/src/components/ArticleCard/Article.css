@@ -6,6 +6,7 @@
 
 .article-title {
     font-size: 22px;
+    text-align: center;
 }
 
 .article-container img {
@@ -29,11 +30,17 @@
     text-align: center;
     margin-top: 20px;
     color: rgb(170, 175, 199);
-    line-height: 25px;
+    line-height: 28px;
     flex: 1;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .article-link {
     width: 100%;
+}
+
+@media screen and (max-width: 770px) {
+    .article-summary {
+      font-size: 20px;
+    }
 }

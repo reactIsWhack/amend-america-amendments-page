@@ -1,8 +1,9 @@
 import './ArticlesGrid.css';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
 import articles from '../../data/articles';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import categories from '../../data/categories';
+import summaries from '../../data/summaries';
 
 function ArticlesGrid() {
     const [articlesToDisplay, setArticlesToDisplay] = useState(articles);
@@ -30,7 +31,7 @@ function ArticlesGrid() {
             title={article.title}
             number={article.number}
             romanNumeral={article.romanNumeral}
-            summary={article.summary}
+            summary={summaries[article.number - 1]}
             key={article.number}
         />
     })

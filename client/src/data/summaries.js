@@ -1,0 +1,32 @@
+const summaries = [
+    "Guarantees equal citizenship for all Americans and prohibits the creation of second-class citizens. It protects citizenship from political abuse while ensuring equal rights and protections under the law.",
+    "Establishes voting as a fundamental constitutional right and removes unnecessary barriers to participation. It guarantees equal access to voting, automatic voter registration, and extends voting rights to citizens age 16 and older.",
+    "Creates national standards to ensure elections are secure, transparent, auditable, and representative of the will of the voters. It protects against manipulation while preserving public confidence in election outcomes.",
+    "Abolishes the Electoral College and elects the President and Vice President by direct national popular vote. Every vote would count equally regardless of where a voter lives.",
+    "Ends partisan gerrymandering by requiring legislative districts to be drawn through independent, politically neutral processes. The goal is fair representation rather than partisan advantage.",
+    "Requires comprehensive, nonpartisan civics education in schools, colleges, and workforce training programs. It ensures every American has access to the knowledge needed for informed democratic participation.",
+    "Reverses Citizens United by allowing strong regulation of political influence spending. It requires the creation of a public campaign financing system and greater transparency for political spending and lobbying.",
+    "Prevents elected officials from using public office for personal enrichment. It strengthens conflict-of-interest rules, ethics requirements, and restrictions on the revolving door between government and private influence.",
+    "Protects American self-government from foreign interference. It prohibits foreign actors from materially influencing U.S. elections, policymaking, and political processes.",
+    "Requires transparency regarding who is behind political advertisements and communications. It helps prevent deceptive political messaging while protecting free speech and political expression.",
+    "Promotes a diverse, transparent, and competitive information environment. It addresses concentrated control over civic information while protecting freedom of speech and freedom of the press.",
+    "Creates rules to address bots, undisclosed automation, artificial amplification, and deceptive online manipulation. It ensures citizens can better distinguish authentic public participation from manufactured influence.",
+    "Clarifies that constitutional rights belong to natural persons, not corporations or other artificial entities. It preserves the ability of people to act collectively while preventing corporations from claiming human constitutional rights.",
+    "Recognizes that freedom requires access to basic conditions necessary for human dignity and self-determination. It establishes constitutional protections for essential needs such as healthcare, housing, education, environmental sustainability, and bodily autonomy.",
+    "Establishes a constitutional right to privacy, personal data control, and freedom from unreasonable surveillance. It also protects individuals from unaccountable automated decision-making and AI-driven governance.",
+    "Acknowledges historic government-sponsored injustices and creates a framework for addressing their lasting effects. It focuses on repairing enduring structural harms without assigning personal blame to individuals today.",
+    "Recognizes that extreme concentrations of wealth threaten democracy and individual freedom. It directs government to prevent economic domination while promoting broad participation and economic opportunity.",
+    "Protects competitive markets by preventing excessive concentrations of private economic power. It preserves economic liberty while ensuring that no private entity becomes powerful enough to dominate society or government.",
+    "Establishes term limits for Congress and the Supreme Court to encourage institutional renewal and prevent the long-term concentration of power. It promotes accountability and a more representative government.",
+    "Preserves debate and deliberation while ensuring legislation can ultimately be decided by majority vote. It prevents procedural tactics from permanently blocking democratic action.",
+    "Ensures the federal government continues operating even when appropriations are delayed. Americans would no longer lose services, paychecks, or protections because of budget standoffs.",
+    "Strengthens congressional oversight of military action and reinforces democratic control over decisions of war and peace. It limits open-ended military authorizations and promotes transparency and accountability.",
+    "Prevents emergency declarations from becoming a pathway to permanent or unchecked government power. Emergency authorities would remain temporary, transparent, reviewable, and subject to constitutional safeguards.",
+    "Protects law enforcement and federal prosecutions from partisan political interference. It ensures that the law applies equally to everyone, regardless of wealth, status, or political power.",
+    "Creates a constitutional emergency mechanism to temporarily suspend presidential authority when a President poses an immediate and extraordinary threat to the nation or constitutional order. Any suspension would require both congressional action and expedited Supreme Court review.",
+    "Allows states to propose constitutional amendments without requiring Congress to initiate the process. It gives the states a practical mechanism to advance constitutional reforms when Congress fails to act.",
+    "Creates a democratic process for territories and other non-represented U.S. jurisdictions to determine their long-term political status. It ensures that government authority ultimately rests on the consent of the governed.",
+    "Provides that this amendment remains open for ratification indefinitely unless the states decide otherwise. It prevents constitutional reform from being blocked by arbitrary deadlines."
+]
+
+export default summaries;
